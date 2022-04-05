@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #34495e 50%, #2c3e50 50%);
+
+}
+
+.form{
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.form img{
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.text{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.form input{
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 80%;
+    color: #fff;
+    border: 1px solid rgb(135, 135, 135);
+    border-radius: 2px;
+    background-color: transparent;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.input-password{
+    margin-top: 20px;
+}
+
+.form input:hover {
+    transition: .5s;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.button-init{
+    font-size: 1.5em;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 80%;
+    background: rgb(37, 37, 117);
+    color: #b9c4c6;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1s ease;
+}
+.button-olvide{
+    display: block;
+    margin: 30px auto;
+    height: 25px;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px;
+    
+}
+
+.form button:hover{
+    border: 2px solid #d5dbdd;
+    background: linear-gradient(#34495e,#2c3e50);
+}
